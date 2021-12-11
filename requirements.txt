@@ -1,0 +1,6 @@
+fastapi==0.70.0
+nest_asyncio==1.5.1
+pydantic==1.8.2
+pyngrok==5.1.0
+starlette==0.16.0
+uvicorn==0.16.0
