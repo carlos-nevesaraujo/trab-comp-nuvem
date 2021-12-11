@@ -7,6 +7,7 @@ Original file is located at
 https://colab.research.google.com/drive/18Vxr8IVZ77vUjTrKLTv6qOItckmb_-V3
 """
 
+
 #!pip install fastapi nest-asyncio pyngrok uvicorn jinja2
 
 class Cidade :
