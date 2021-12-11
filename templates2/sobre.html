@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 
@@ -27,10 +28,6 @@
                     <li><a href="#" class="nav-link px-2 text-white">Contato</a></li>
 
                 </ul>
-
-
-
-
             </div>
         </div>
     </header>
@@ -38,40 +35,20 @@
     <div class="container" style="padding-top: 10px;">
 
 
-    <div class="row">
-        <div class="col-md-5">
-            <h2> Iremos calcular a melhor rota para chegar ao seu destino!</h2>
+        <div class="row">
+            <div class="col-md-6">
+ <h2>Sobre</h2>
 
-            <form>
-                <div class="mb-3">
-                    <label for="origem" class="form-label">Origem</label>
-                    <input type="text" class="form-control" name="origem" id="origem" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                    <label for="destino" class="form-label">Destino</label>
-                    <input type="text" class="form-control" name="destino" id="destino" aria-describedby="emailHelp">
-                </div>
-
-                <button type="submit" class="btn btn-primary">Calcular</button>
-
-
-                <h2 style="margin-top:50px">
-                    <b>
-                        {{ result.caminho }}
-                    </b>
-                </h2>
-            </form>
+ <p> Criamos um modelo de regressão linear que calcula o menor caminho entre dois pontos em um mapa. O dataset é um grafo associando as cidades do mapa, os caminhos de uma cidade à outra e a distância percorrida nesses caminhos.
+    Utilizando uma API, disponibilizamos ao usuário a imagem do mapa e solicitamos que o usuário informe uma origem e um destino para calcular o trajeto. A requisição é realizada à API, que retorna o trajeto desejado.
+    </p>
+            </div>
         </div>
-        <div class="col-md-7">
-            <img src="rotas.jpeg" style="width: 100%;" >
-        </div>
+
+
+
     </div>
-
-
-   
-</div>
 
 </body>
 
 </html>
-
